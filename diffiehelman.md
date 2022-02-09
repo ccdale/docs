@@ -1,3 +1,5 @@
+[back](encryption.md)
+
 # Diffie-Helman Key Exchange
 
 ## Symmetric Encryption
@@ -34,6 +36,11 @@ will be long gone).
 
 The
 [wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
-page does illustrate this process using colour mixing, as does this
-[computerphile](https://www.youtube.com/watch?v=NmM9HA2MQGI) video with [this
-one](https://www.youtube.com/watch?v=Yjrfm_oRO0w) explaining the mathematics.
+page does illustrate this process using colour mixing, but then goes on to
+explain the mathematics behind the method in as obscure a way as possible much
+like a Regimental Sargent Major bellowing a Shakespeare Sonnet. This video from
+[Computerphile](https://www.youtube.com/watch?v=NmM9HA2MQGI) shows the colour
+mixing in action with [this one](https://www.youtube.com/watch?v=Yjrfm_oRO0w)
+explaining the mathematics.
+
+[back](encryption.md)

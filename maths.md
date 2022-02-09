@@ -1,3 +1,5 @@
+[back](encryption.md)
+
 # Mathematics for Encryption
 
 ## Integers
@@ -24,3 +26,5 @@ above: 7 % 2 = 1.
 ## Binary
 
 ## Boolean Logic
+
+[back](encryption.md)

@@ -1,3 +1,5 @@
+[back](encryption.md)
+
 # Public Private Key Encryption
 
 ## Asymmetric Encryption
@@ -39,3 +41,5 @@ Overflow](https://stackoverflow.com/questions/38846/how-to-encrypt-one-message-f
 answer may take you on that journey) allows you to encrypt the same message for
 numerous recipients at the same time, such that each one will be able to decrypt
 it using their specific private key.
+
+[back](encryption.md)
