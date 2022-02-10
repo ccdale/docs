@@ -23,8 +23,43 @@ above: 7 % 2 = 1.
 
 ## Power
 
+The exponent of a number simply says how many times to multiply that number by
+itself.  i.e. `5 ^ 2` says to multiply `5x5`, `3 ^ 4` says to multiply
+`3x3x3x3`.  This process is called 'raising to the power of' (and in the case
+where the exponent is 2 or 3 - 'squared' or 'cubed')
+
 ## Binary
 
+Binary is a number system based on 2 (digits 0 - 1).  Our usual number system is based on 10
+(digits 0 - 9).  As computer systems are mostly comprised of logic circuits that
+have a one of two states - on or off, it is easy to translate numbers to binary
+for usage in computers.
+
+Just like in the 10s based system the extreme right hand side of a binary number
+is the lowest value, increasing in value the further you move to the left.
+
+the 10s based number `1079` is composed thus (starting at the right):
+```
+9 x 1    =    9
+7 x 10   =   70
+0 x 100  =    0
+1 x 1000 = 1000
+           ----
+           1079
+```
+
+Similarly the binary number `1011001` is composed:
+```
+1 x 1  =  1
+0 x 2  =  0
+0 x 4  =  0
+1 x 8  =  8
+1 x 16 = 16
+0 x 32 =  0
+1 x 64 = 64
+         --
+         89
+```
 ## Boolean Logic
 
 [back](encryption.md)
