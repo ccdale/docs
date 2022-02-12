@@ -62,4 +62,16 @@ Similarly the binary number `1011001` is composed:
 ```
 ## Boolean Logic
 
+Boolean operators operate at the bit level so binary is an ideal number format when numbers are being manipulated with Boolean
+Logic.
+
+### Not Operator
+
+One input, one output.  The output is the inverse of the input.
+
+|        |   |   |
+|--------|--:|--:|
+| input  | 0 | 1 |
+| output | 1 | 0 |
+
 [back](encryption.md)
