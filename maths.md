@@ -74,4 +74,37 @@ One input, one output.  The output is the inverse of the input.
 | input  | 0 | 1 |
 | output | 1 | 0 |
 
+
+### And Operator
+
+Two inputs, one output. The output is 1 if both the inputs are one, else it is zero
+
+|         |   |   |   |   |
+|---------|--:|--:|---|---|
+| input a | 0 | 0 | 1 | 1 |
+| input b | 0 | 1 | 0 | 1 |
+| output  | 0 | 0 | 0 | 1 |
+
+### Or Operator
+
+Two inputs, one output. The output is 1 if either or both the inputs are one, else it is zero
+
+|         |   |   |   |   |
+|---------|--:|--:|---|---|
+| input a | 0 | 0 | 1 | 1 |
+| input b | 0 | 1 | 0 | 1 |
+| output  | 0 | 1 | 1 | 1 |
+
+### Xor Operator
+
+Exclusive Or with two inputs, one output. The output is 1 if one of the inputs is 1 and the other is zero, else the output is
+zero.
+
+|         |   |   |   |   |
+|---------|--:|--:|---|---|
+| input a | 0 | 0 | 1 | 1 |
+| input b | 0 | 1 | 0 | 1 |
+| output  | 0 | 1 | 1 | 0 |
+
+
 [back](encryption.md)
