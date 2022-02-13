@@ -98,7 +98,8 @@ Two inputs, one output. The output is 1 if either or both the inputs are one, el
 ### Xor Operator
 
 Exclusive Or with two inputs, one output. The output is 1 if one of the inputs is 1 and the other is zero, else the output is
-zero.
+zero. With a little thought you will see that this operator is important in encryption as it is completely reversible. Xor the
+output with one of the inputs and you get the other input.
 
 |         |   |   |   |   |
 |---------|--:|--:|---|---|
