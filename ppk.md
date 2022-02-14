@@ -13,6 +13,10 @@ only to the user.  That last part is extremely important, as should the private
 key become known to anyone/thing else then the security of the key pair is
 compromised and they should be discarded and new ones generated.
 
+## Bob and Alice
+
+![Bob chats to Alice](images/pubprivenc.png)
+
 ## Signatures
 
 When using other forms of encryption (or even in-clear messaging) a signature of
