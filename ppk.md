@@ -17,6 +17,12 @@ compromised and they should be discarded and new ones generated.
 
 ![Bob chats to Alice](images/pubprivenc.png)
 
+1. Bob wants to send a message, "Hello Alice", to Alice.
+2. He encrypts the message using Alice's public key.
+3. He sends the encrypted message over the insecure network to Alice.
+4. Alice receives the message and decrypts it using her private key, "Hello
+   Alice"
+
 ## Signatures
 
 When using other forms of encryption (or even in-clear messaging) a signature of
