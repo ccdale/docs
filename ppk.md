@@ -27,11 +27,15 @@ compromised and they should be discarded and new ones generated.
 
 When using other forms of encryption (or even in-clear messaging) a signature of
 the message can be generated [(see hashing functions in
-wikipedia)](https://en.wikipedia.org/wiki/Hash_function) that is encrypted with
-the private key.  A receiver of the message can then attempt to decrypt the
-signature with the public key, and by recomputing the hash of the message can be
-sure that the message hasn't been tampered with and that it came from the person
-it said it came from as only that person has the private key of the key pair.
+wikipedia)](https://en.wikipedia.org/wiki/Hash_function) that is composed of the
+message text and encrypted with the *private* key of the sender.
+
+The receiver receives the message (unencrypted) and a signature blob, normally
+'base64` encoded for safe transmission over email.  She decodes the base64
+encoding and verifies the signature with the original message using the senders
+*public* key. Should the signature pass verification then the receiver knows
+that the original message did come from the sender, the only holder of the
+private key, and that it has not been tampered with.
 
 ![Bob signs his message](images/signing.png)
 
