@@ -33,6 +33,27 @@ signature with the public key, and by recomputing the hash of the message can be
 sure that the message hasn't been tampered with and that it came from the person
 it said it came from as only that person has the private key of the key pair.
 
+![Bob signs his message](images/signing.png)
+
+1. Bob creates his message in the file `message.txt`
+2. Using his private key he creates a signature of that message.txt file
+   `openssl dgst -sha256 -sign bob.id_rsa -out signature message.txt`
+3. The signature, being a pure binary file, should be encoded for transmission
+   using the `base64` utility.
+   `base64 signature >signature.b64`
+4. Bob sends both the `message.txt` and the encoded `signature.b64` file to
+   Alice.
+5. Alice can open the `message.txt` as it is unencrypted, plain text.  Now she
+   wants to ensure that it came from Bob and has not been tampered with.
+6. Alice decodes the `signature.b64` file into a `signature` file.
+   `base64 --decode signature.b64 >signature`
+7. Alice checks the signature did indeed come from Bob using his public key.
+   `openssl dgst -sha256 -verify bob.id_rsa.pub -signature signature message.txt`
+8. The signature is confirmed, the message can only have come from Bob as it was
+   signed with his private key, moreover, Alice can be sure that no-one has
+   tampered with it.
+
+
 ## GPG (PGP)
 
 [GPG (GNU Privacy Guard)](https://gnupg.org/https://gnupg.org/) based on [Phil
