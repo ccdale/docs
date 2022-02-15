@@ -23,12 +23,12 @@ computer and Bob being a Server you wish to communicate with.
 3. Bob generates a secret integer, which we'll denote as `b`.  He computes `g^b
    mod p`, the result we'll call 'B', which he sends back to Alice.
 
-4. (this is magical, elegant bit). Alice computes `B^a mod p` and Bob computes
-   `A^b mod p` - the result of both of those calculations are equal (and can be
-   proven mathematically).  They have now generated a shared secret key, which
-   they both know, but no-one else does.  They use this key to encrypt further
-   communication. As they are using the same key to encrypt and decrypt this is
-   called Symmetric Encryption.
+4. (this is the magical, elegant bit). Alice computes `B^a mod p` and Bob
+   computes `A^b mod p` - the result of both of those calculations are equal
+   (and can be proven mathematically).  They have now generated a shared secret
+   key, which they both know, but no-one else does.  They use this key to
+   encrypt further communication. As they are using the same key to encrypt and
+   decrypt this is called Symmetric Encryption.
 
 Any eavesdropper will know `A`, `B`, `p` and `g` but will never know `a` or `b`.
 For all intents and purposes `A` and `B` can be brute-forced (trying each
