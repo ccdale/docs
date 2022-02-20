@@ -73,6 +73,31 @@ registers their word length is usually taken to be 32-bits (though some C
 Compilers do use 64-bit words). For encryption, a word length of 32-bits is
 standardised-ish (and probably expected).
 
+## Hexadecimal
+
+Hexadecimal is a number system based on 16 (decimal - based on 10, binary -
+based on 2). The letters `A` - `F` are used to denote values greater than 9 and
+less than 16.
+
+Hex numbers can be easily re-written as binary, each digit of a Hex pair is
+exactly 4 bits.
+
+```
+0 = 0000
+1 = 0001
+...
+9 = 1001
+A = 1010
+...
+F = 1111
+```
+
+Hex numbers when written down normally are preceded with `0x` to avoid confusion
+with decimal numbers.
+
+i.e. `12` could be the decimal value `12` or the hex value of `18` therefore it
+would be written as `0x12`.
+
 
 ## Boolean Logic
 
