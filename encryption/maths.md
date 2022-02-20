@@ -60,6 +60,20 @@ Similarly the binary number `1011001` is composed:
          --
          89
 ```
+
+### Terms
+
+* bit: a single binary digit
+* nibble: 4 binary digits
+* byte: 2 nibbles / 8 binary digits
+* word: 4 bytes / 32 binary digits
+
+Older computers used to have 16-bit words. Though newer computers have 64-bit
+registers their word length is usually taken to be 32-bits (though some C
+Compilers do use 64-bit words). For encryption, a word length of 32-bits is
+standardised-ish (and probably expected).
+
+
 ## Boolean Logic
 
 Boolean operators operate at the bit level so binary is an ideal number format when numbers are being manipulated with Boolean
