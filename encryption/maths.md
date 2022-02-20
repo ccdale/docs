@@ -1,4 +1,4 @@
-[back](/encryption/index.md)
+[back](/docs/encryption/index.md)
 
 # Mathematics for Encryption
 
@@ -108,4 +108,4 @@ output with one of the inputs and you get the other input.
 | output  | 0 | 1 | 1 | 0 |
 
 
-[back](/encryption/index.md)
+[back](/docs/encryption/index.md)

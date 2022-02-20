@@ -1,4 +1,4 @@
-[back](/encryption/index.md)
+[back](/docs/encryption/index.md)
 
 # Public Private Key Encryption
 
@@ -15,7 +15,7 @@ compromised and they should be discarded and new ones generated.
 
 ## Bob and Alice
 
-![Bob chats to Alice](images/pubprivenc.png)
+![Bob chats to Alice](/docs/images/pubprivenc.png)
 
 1. Bob wants to send a message, "Hello Alice", to Alice.
 2. He encrypts the message using Alice's public key.
@@ -37,7 +37,7 @@ encoding and verifies the signature with the original message using the senders
 that the original message did come from the sender, the only holder of the
 private key, and that it has not been tampered with.
 
-![Bob signs his message](images/signing.png)
+![Bob signs his message](/docs/images/signing.png)
 
 1. Bob creates his message in the file `message.txt`
 2. Using his private key he creates a signature of that message.txt file
@@ -77,4 +77,4 @@ answer may take you on that journey) allows you to encrypt the same message for
 numerous recipients at the same time, such that each one will be able to decrypt
 it using their specific private key.
 
-[back](/encryption/index.md)
+[back](/docs/encryption/index.md)

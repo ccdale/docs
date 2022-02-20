@@ -1,4 +1,4 @@
-[back](/encryption/index.md)
+[back](/docs/encryption/index.md)
 
 # Diffie-Helman Key Exchange
 
@@ -9,7 +9,7 @@ between 2 or more parties over an unsecured network.  Traditionally, the users
 Alice and Bob are used to illustrate the process, just think of Alice being your
 computer and Bob being a Server you wish to communicate with.
 
-![Diffie-Helman key generation](/images/diffiehelman.png)
+![Diffie-Helman key generation](/docs/images/diffiehelman.png)
 
 1. Agreement is made between Alice and Bob on a large prime number (>1k bits),
    and a small prime number (<23).  The small number is called the generator,
@@ -45,4 +45,4 @@ like a Regimental Sargent Major bellowing a Shakespeare Sonnet. This video from
 mixing in action with [this one](https://www.youtube.com/watch?v=Yjrfm_oRO0w)
 explaining the mathematics.
 
-[back](/encryption/index.md)
+[back](/docs/encryption/index.md)

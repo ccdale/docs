@@ -1,8 +1,8 @@
-[back](/encryption/index.md)
+[back](/docs/encryption/index.md)
 
 # Advanced Encryption Standard
 
 ## Symmetric Encryption
 
 
-[back](/encryption/index.md)
+[back](/docs/encryption/index.md)
