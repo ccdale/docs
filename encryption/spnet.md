@@ -1,8 +1,7 @@
 [back](docs/encryption/index.md)
 
-# Advanced Encryption Standard
+# Substitution and Permutation Networks
 
-## Symmetric Encryption
 
 
 [back](docs/encryption/index.md)

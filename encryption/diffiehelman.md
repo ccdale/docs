@@ -1,4 +1,4 @@
-[back](/docs/encryption/index.md)
+[back](docs/encryption/index.md)
 
 # Diffie-Helman Key Exchange
 
@@ -45,4 +45,4 @@ like a Regimental Sargent Major bellowing a Shakespeare Sonnet. This video from
 mixing in action with [this one](https://www.youtube.com/watch?v=Yjrfm_oRO0w)
 explaining the mathematics.
 
-[back](/docs/encryption/index.md)
+[back](docs/encryption/index.md)
