@@ -77,4 +77,13 @@ answer may take you on that journey) allows you to encrypt the same message for
 numerous recipients at the same time, such that each one will be able to decrypt
 it using their specific private key.
 
+![GPG Multi-Recipient Encryption](../images/gpg-multi.png)
+
+What I suspect happens (and I'm too lazy to read all the maths) is that GPG will
+generate a 'hidden' encryption key to encrypt the message with, it will then
+generate 'slots' in the outgoing message with the hidden encryption key
+individually encrypted with the recipients public key.  That way, when one of
+the recipients recieves the message, they decrypt the hidden key from their
+individual slot and then decrypt the message using the decrypted hidden key.
+
 [back](index.md)
