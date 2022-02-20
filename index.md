@@ -1,2 +1,2 @@
-[Encryption Info](encryption.md)
-
+[Encryption Info](encryption/index.md)
+[AWS](aws/index.md)
