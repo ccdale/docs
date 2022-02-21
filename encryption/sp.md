@@ -1,6 +1,6 @@
 [back](index.md)
 
-# Substitution and Permutation Networks
+# Substitution and Permutation
 
 ## Substitution
 
