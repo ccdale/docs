@@ -27,4 +27,15 @@ The last round does everything above except mix columns.
 The number of rounds depends on the key size. 128 bits = 10 rounds, 192 = 12
 rounds and 256 = 14 rounds.
 
+
+## Substitution
+
+The S-Box used for AES is cleverly designed such that there are no inversions
+nor inverted mappings.  i.e. `10101010` doesn't map to `01010101` nor if
+`10101010` maps to `11001100` then `11001100` will not map to `10101010`.  As it
+is just a lookup table, it is very fast to implement (in computing terms of
+speed).
+
+![Substitution](../images/substitution.png)
+
 [back](index.md)
