@@ -38,4 +38,31 @@ speed).
 
 ![Substitution](../images/substitution.png)
 
+## Permutations
+
+### Shift Rows
+
+The top row of the grid remains unchanged.
+
+The 2nd row is shifted left one place, so `sB1` moves to where `sB13` is and the
+others in that row move left one.
+
+The 3rd row is shifted left two places.
+
+The 4th row is shifted left three places (which is shifting right by one place).
+
+![Shift Rows](../images/shiftrows.png)
+
+### Mix Columns
+
+Each column in turn is multiplied with a pre-defined matrix, any single value
+that exceeds the value of a byte once each one has been added up is modded back
+to be within a single byte.  Thus each column after the mixing is returned as a
+single column.  The diagram shows only the first column however each column is
+mixed in turn to produce the final grid.
+
+![Mix Columns](../images/mixcol.png)
+
+
+### Round Key
 [back](index.md)
