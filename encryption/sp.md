@@ -32,7 +32,7 @@ most encryption based on SP networks are known as Block Cyphers.
 Both the substitution look up table and the permutation blocks are published as
 part of the encryption standard.  To make the encryption as 'unbreakable' as
 possible a 3rd element is required.  This is the encryption key, a large number
-of a fixed size, 1024 bits plus.
+of a fixed size between 64 and 512 bits, and always a multiple of 8.
 
 The key is mixed into the SP rounds, using XOR so it is reversible, and to
 ensure that there are enough bits of the key it is expanded to the size of each

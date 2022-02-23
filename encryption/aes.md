@@ -12,8 +12,8 @@ message size is normally the same size as the input message.
 
 The key size for AES is 128, 192 or 256 bits in length, which will give
 increasing levels of security at the cost of processing time. The smallest key
-size of 128 bits still gives a theoretical brute force time measured in 1000s of
-years.
+size of 128 bits still gives a theoretical brute force time measured in billions
+of years to crack AES.
 
 
 ![AES Grid](../aesgrid.png)
