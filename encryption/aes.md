@@ -65,4 +65,18 @@ mixed in turn to produce the final grid.
 
 
 ### Round Key
+
+The next block of 128 bits from the key stream is then Xored with the result.
+
+![Round Key](../images/roundkey.png)
+
+To produce the input message for the next round.  After the final round the
+output is the encrypted message.
+
+## Decryption
+
+Decryption is the reverse of the above.  Each step is reversible, and thus, the
+message is decryptable.
+
+
 [back](index.md)
