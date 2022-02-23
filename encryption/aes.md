@@ -15,9 +15,16 @@ increasing levels of security at the cost of processing time. The smallest key
 size of 128 bits still gives a theoretical brute force time measured in 1000s of
 years.
 
-All operations in AES are performed on a block of 128 bits arranged as a grid of
-16 bytes.
 
 ![AES Grid](../aesgrid.png)
+
+AES performs a number of encryption rounds, each one consisting of key
+insertion, substitution, permutation to shift rows in the grid, permutation to
+mix columns in the grid and finally add the round key.
+
+The last round does everything above except mix columns.
+
+The number of rounds depends on the key size. 128 bits = 10 rounds, 192 = 12
+rounds and 256 = 14 rounds.
 
 [back](index.md)
