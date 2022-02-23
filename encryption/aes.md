@@ -16,7 +16,7 @@ size of 128 bits still gives a theoretical brute force time measured in billions
 of years to crack AES.
 
 
-![AES Grid](../aesgrid.png)
+![AES Grid](../images/aesgrid.png)
 
 AES performs a number of encryption rounds, each one consisting of key
 insertion, substitution, permutation to shift rows in the grid, permutation to
