@@ -42,6 +42,9 @@ The key is split up into 32-bit words, the first 3 are simply repeated, the 4th.
 is put through an S-Box and Permutation different to the Round phases and added
 to what is now a Key Stream.
 
+![Key Expansion](../images/keyexp.png)
+
+
 The Key Stream is cut into blocks of the same size as each Round.
 
 ![Round](../images/round.png)
