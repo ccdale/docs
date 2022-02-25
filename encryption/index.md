@@ -5,6 +5,7 @@
 1. [Diffie-Helman Key Exchange](diffiehelman.md)
 1. [Substitution and Permutation](sp.md)
 1. [Advanced Encryption Standard](aes.md)
+1. OSI 7-layer Network Model
 1. TLS
 1. Kerberos
 

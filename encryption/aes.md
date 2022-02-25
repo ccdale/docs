@@ -55,7 +55,7 @@ The 4th row is shifted left three places (which is shifting right by one place).
 
 ### Mix Columns
 
-Each column in turn is multiplied with a pre-defined matrix, any single value
+Each column in turn is multiplied with a pre-defined matrix. Any single value
 that exceeds the value of a byte once each one has been added up is modded back
 to be within a single byte.  Thus each column after the mixing is returned as a
 single column.  The diagram shows only the first column however each column is
