@@ -63,6 +63,12 @@ mixed in turn to produce the final grid.
 
 ![Mix Columns](../images/mixcol.png)
 
+```
+(sB0 * 2) + (sB0 * 1) + (sB0 * 1) + (sB0 * 3) == m0
+(sB5 * 3) + (sB5 * 2) + (sB5 * 1) + (sB5 * 1) == m1
+(sB10 * 1) + (sB10 * 3) + (sB10 * 2) + (sB10 * 1) == m2
+(sB15 * 1) + (sB15 * 1) + (sB15 * 3) + (sB15 * 2) == m3
+```
 
 ### Round Key
 
