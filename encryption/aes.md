@@ -34,7 +34,7 @@ The S-Box used for AES is cleverly designed such that there are no inversions
 nor inverted mappings.  i.e. `10101010` doesn't map to `01010101` nor if
 `10101010` maps to `11001100` then `11001100` will not map to `10101010`.  As it
 is just a lookup table, it is very fast to implement (in computing terms of
-speed).
+speed). See [Rijndael S-Box](https://en.wikipedia.org/wiki/Rijndael_S-box)
 
 ![Substitution](../images/substitution.png)
 
